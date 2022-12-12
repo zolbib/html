@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 2000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+
+        <header>
+          <fieldset class="logofield">
+              <div class="containement">
+                <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+                  <div class="quote">
+                    <p>  “I am an artist,
+       the track is my canvas <br>
+      and the car is my brush.” 
+              - Graham Hill</p>
+                  </div>
+              </div>
+      
+          </fieldset>
+      
+      
+          <fieldset class="topmenu">
+      
+            <div class="home-menu">
+              <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"><a href="#"> Standings</a></button>
+              <div class="menu-content">
+                <a href="driver-points.html">Drivers Standings </a>
+                <a href="constructors-points.html"> Constructor Standings</a>
+                <a href="season-results.html">Season Results</a>
+              </div>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href=""> About</a></button>
+              <div class="menu-content">
+                <a href="#">submenu 1</a>
+                <a href="#">submenu 2</a>
+                <a href="#">submenu 3</a>
+              </div>
+            </div>
+      
+          </fieldset>
+      
+        </header> 
+  <fieldset class="articlefield">
+    <h3 class="news-title">2022 RACE RESULTS</h3>
+    <table class="table-construct">
+      <tbody>
+      <tr>
+      <td class="td-cst-pos"><p class="result-title">GRAND PRIX</p></td>
+      <td class="td-cst-teams"><p class="result-title">DATE</p></td>
+      <td class="td-cst-points"><p class="result-title">WINNER</p></td>
+      <td class="td-cst-pos"><p class="result-title">CAR</p></td>
+      <td class="td-cst-teams"><p class="result-title">LAPS</p></td>
+      <td class="td-cst-points"><p class="result-title">TIME</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Bahrain</p></td>
+        <td class="td-cst-teams"><p class="result">20 Mar 2022</p></td>
+        <td class="td-cst-points"><p class="result">Charles Leclerc</p></td>
+        <td class="td-cst-pos"><p class="result">FERRARI</p></td>
+        <td class="td-cst-teams"><p class="result">57</p></td>
+        <td class="td-cst-points"><p class="result">1:37:33.584</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Saudi Arabia</p></td>
+        <td class="td-cst-teams"><p class="result">27 Mar 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">50</p></td>
+        <td class="td-cst-points"><p class="result">1:24:19.293</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Australia</p></td>
+        <td class="td-cst-teams"><p class="result">10 Apr 2022</p></td>
+        <td class="td-cst-points"><p class="result">Charles Leclerc</p></td>
+        <td class="td-cst-pos"><p class="result">FERRARI</p></td>
+        <td class="td-cst-teams"><p class="result">58</p></td>
+        <td class="td-cst-points"><p class="result">11:27:46.548</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Emilia Romagna</p></td>
+        <td class="td-cst-teams"><p class="result">24 Apr 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">63</p></td>
+        <td class="td-cst-points"><p class="result">1:32:07.986</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Miami</p></td>
+        <td class="td-cst-teams"><p class="result">08 May 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">57</p></td>
+        <td class="td-cst-points"><p class="result">1:34:24.258</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Spain</p></td>
+        <td class="td-cst-teams"><p class="result">22 May 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">66</p></td>
+        <td class="td-cst-points"><p class="result">1:37:20.475</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Monaco</p></td>
+        <td class="td-cst-teams"><p class="result">29 May 2022</p></td>
+        <td class="td-cst-points"><p class="result">Sergio Perez</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">64</p></td>
+        <td class="td-cst-points"><p class="result">1:56:30.265</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Azerbaijan</p></td>
+        <td class="td-cst-teams"><p class="result">12 Jun 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">51</p></td>
+        <td class="td-cst-points"><p class="result">1:34:05.941</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Canada</p></td>
+        <td class="td-cst-teams"><p class="result">19 Jun 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">70</p></td>
+        <td class="td-cst-points"><p class="result">1:36:21.757</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Great Britain</p></td>
+        <td class="td-cst-teams"><p class="result">03 Jul 2022</p></td>
+        <td class="td-cst-points"><p class="result">Carlos Sainz</p></td>
+        <td class="td-cst-pos"><p class="result">FERRARI</p></td>
+        <td class="td-cst-teams"><p class="result">52</p></td>
+        <td class="td-cst-points"><p class="result">2:17:50.311</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Austria</p></td>
+        <td class="td-cst-teams"><p class="result">10 Jul 2022</p></td>
+        <td class="td-cst-points"><p class="result">Charles Leclerc</p></td>
+        <td class="td-cst-pos"><p class="result">FERRARI</p></td>
+        <td class="td-cst-teams"><p class="result">71</p></td>
+        <td class="td-cst-points"><p class="result">1:24:24.312</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">France</p></td>
+        <td class="td-cst-teams"><p class="result">24 Jul 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">53</p></td>
+        <td class="td-cst-points"><p class="result">1:30:02.112</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Hungary</p></td>
+        <td class="td-cst-teams"><p class="result">31 Jul 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">70</p></td>
+        <td class="td-cst-points"><p class="result">1:39:35.912</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Belgium</p></td>
+        <td class="td-cst-teams"><p class="result">28 Aug 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">44</p></td>
+        <td class="td-cst-points"><p class="result">1:25:52.894</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Netherlands</p></td>
+        <td class="td-cst-teams"><p class="result">04 Sep 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">72</p></td>
+        <td class="td-cst-points"><p class="result">1:36:42.773</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Netherlands</p></td>
+        <td class="td-cst-teams"><p class="result">04 Sep 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">72</p></td>
+        <td class="td-cst-points"><p class="result">1:36:42.773</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Italy</p></td>
+        <td class="td-cst-teams"><p class="result">11 Sep 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">53</p></td>
+        <td class="td-cst-points"><p class="result">1:20:27.511</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Singapore</p></td>
+        <td class="td-cst-teams"><p class="result">02 Oct 2022</p></td>
+        <td class="td-cst-points"><p class="result">Sergio Perez</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">59</p></td>
+        <td class="td-cst-points"><p class="result">2:02:20.238</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Japan</p></td>
+        <td class="td-cst-teams"><p class="result">09 Oct 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">28</p></td>
+        <td class="td-cst-points"><p class="result">3:01:44.004</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">United States</p></td>
+        <td class="td-cst-teams"><p class="result">23 Oct 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">56</p></td>
+        <td class="td-cst-points"><p class="result">1:42:11.687</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="result">Mexico</p></td>
+        <td class="td-cst-teams"><p class="result">30 Oct 2022</p></td>
+        <td class="td-cst-points"><p class="result">Max Verstappen</p></td>
+        <td class="td-cst-pos"><p class="result">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-teams"><p class="result">71</p></td>
+        <td class="td-cst-points"><p class="result">1:38:36.729</p></td>
+      </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <footer>
+    <p class="icons">Our socials</p>
+    <div class="socials">
+        <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+        <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+        <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+        <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+    </div>
+  </footer>
+  </body>
+</html>

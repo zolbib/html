@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 2000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+        <header>
+            <fieldset class="logofield">
+                <div class="containement">
+                  <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+                    <div class="quote">
+                      <p>  “I am an artist,
+         the track is my canvas <br>
+        and the car is my brush.” 
+                - Graham Hill</p>
+                    </div>
+                </div>
+        
+            </fieldset>
+        
+        
+            <fieldset class="topmenu">
+        
+              <div class="home-menu">
+                <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+              </div>
+        
+              <div class="menu">
+                <button class="submenu"><a href="#"> Standings</a></button>
+                <div class="menu-content">
+                  <a href="driver-points.html">Drivers Standings </a>
+                  <a href="constructors-points.html"> Constructor Standings</a>
+                  <a href="season-results.html">Season Results</a>
+                </div>
+              </div>
+        
+              <div class="menu">
+                <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+              </div>
+        
+              <div class="menu">
+                <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+              </div>
+        
+              <div class="menu">
+                <button class="submenu"> <a href=""> About</a></button>
+                <div class="menu-content">
+                  <a href="#">submenu 1</a>
+                  <a href="#">submenu 2</a>
+                  <a href="#">submenu 3</a>
+                </div>
+              </div>
+        
+            </fieldset>
+        
+          </header> 
+  
+  
+  
+  
+  <fieldset class="articlefield">
+    <h3 class="news-title">Formula 1 Circuits featured in the 2022 Season</h3>
+    <table class="table-circuits">
+        <tr>
+            <th class="circuit-table"> <p class="circuit-title"> Date</p></th>
+            <th class="circuit-table"><p class="circuit-title">Grand prix</p></th>
+            <th class="circuit-table"><p class="circuit-title">Circuit</p></th>
+        </tr>
+        <tbody>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 20 March</p></th>
+                <th class="circuit-table"><p class="circuit-name">Bahrain Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Bahrain International Circuit, Sakhir</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 27 March</p></th>
+                <th class="circuit-table"><p class="circuit-name">Saudi Arabian Grand Prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Jeddah Corniche Circuit, Jeddah</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 10 April</p></th>
+                <th class="circuit-table"><p class="circuit-name">Australian Grand Prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Albert Park Circuit, Melbourne	</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 24 April</p></th>
+                <th class="circuit-table"><p class="circuit-name">Emilia Romagna Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Autodromo Enzo e Dino Ferrari, Imolar</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 8 may</p></th>
+                <th class="circuit-table"><p class="circuit-name">Miami Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Miami International Autodrome, Miami Gardens</p></th>
+            </tr>
+
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 22 May</p></th>
+                <th class="circuit-table"><p class="circuit-name">Spanish Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit de Barcelona-Catalunya, Barcelona</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 29 May</p></th>
+                <th class="circuit-table"><p class="circuit-name">Monaco Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit de Monte Carlo, Monaco</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 12 June</p></th>
+                <th class="circuit-table"><p class="circuit-name">Azerbaijan Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Baku City Circuit, Baku</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 19 June</p></th>
+                <th class="circuit-table"><p class="circuit-name">Canadian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit Gilles-Villeneuve, Montreal</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 3 July</p></th>
+                <th class="circuit-table"><p class="circuit-name">British Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Silverstone Circuit, Towcester</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 10 July</p></th>
+                <th class="circuit-table"><p class="circuit-name">Austrian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Red Bull Ring, Speilberg</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 24 July</p></th>
+                <th class="circuit-table"><p class="circuit-name">French Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit Paul Ricard, Le Castellet</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 31 July</p></th>
+                <th class="circuit-table"><p class="circuit-name">Hungarian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Hungaroring, Budapest</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 28 August</p></th>
+                <th class="circuit-table"><p class="circuit-name">Belgian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit Spa-Francorchamps, Stavelot</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 4 September</p></th>
+                <th class="circuit-table"><p class="circuit-name">Dutch Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit Zandvoort, Zandvoort</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 11 September</p></th>
+                <th class="circuit-table"><p class="circuit-name">Italian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Autodromo Nazionale Monza, Monza</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 25 September</p></th>
+                <th class="circuit-table"><p class="circuit-name">Russian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Sochi Autodrom, Sochi</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 2 Octobre</p></th>
+                <th class="circuit-table"><p class="circuit-name">Singapore Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Marina Bay Circuit, Singapore</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 9 Octobre</p></th>
+                <th class="circuit-table"><p class="circuit-name">Japanese Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Suzuka Circuit	</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 23 Octobre</p></th>
+                <th class="circuit-table"><p class="circuit-name">United States Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Circuit of the Americas, Austin	</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 30 Octobre</p></th>
+                <th class="circuit-table"><p class="circuit-name">Mexican Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Autódromo Hermanos Rodríguez, Mexico City</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 13 November</p></th>
+                <th class="circuit-table"><p class="circuit-name">Brazilian Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Autódromo José Carlos Pace, Interlagos	</p></th>
+            </tr>
+            <tr>
+                <th class="circuit-table"> <p class="circuit-name"> 20 November</p></th>
+                <th class="circuit-table"><p class="circuit-name">Abu Dhabi Grand prix</p></th>
+                <th class="circuit-table"><p class="circuit-name">Yas Marina Circuit</p></th>
+            </tr>
+
+        </tbody>
+    </table>
+  </fieldset>
+  
+  
+  <footer>
+    
+    
+    <p class="icons">Our socials</p>
+    <div class="socials">
+        <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+        <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+        <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+        <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+    </div>
+  </footer>
+  </body>
+</html>

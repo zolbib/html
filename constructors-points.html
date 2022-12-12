@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 2000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+        <header>
+          <fieldset class="logofield">
+              <div class="containement">
+                <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+                  <div class="quote">
+                    <p>  “I am an artist,
+       the track is my canvas <br>
+      and the car is my brush.” 
+              - Graham Hill</p>
+                  </div>
+              </div>
+      
+          </fieldset>
+      
+      
+          <fieldset class="topmenu">
+      
+            <div class="home-menu">
+              <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"><a href="#"> Standings</a></button>
+              <div class="menu-content">
+                <a href="driver-points.html">Drivers Standings </a>
+                <a href="constructors-points.html"> Constructor Standings</a>
+                <a href="season-results.html">Season Results</a>
+              </div>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href=""> About</a></button>
+              <div class="menu-content">
+                <a href="#">submenu 1</a>
+                <a href="#">submenu 2</a>
+                <a href="#">submenu 3</a>
+              </div>
+            </div>
+      
+          </fieldset>
+      
+        </header> 
+  <fieldset class="articlefield">
+    <h3 class="news-title">2022 Constructor Standings</h3>
+    <table class="table-construct">
+        <tbody>
+        <tr>
+        <td class="td-cst-pos"><p class="pos-title">POS</p></td>
+        <td class="td-cst-teams"><p class="team-title">TEAM</p></td>
+        <td class="td-cst-points"><p class="point-title">PTS</p></td>
+        </tr>
+        <tr>
+          <td class="td-cst-pos"><p class="cst-pos">1</p></td>
+          <td class="td-cst-teams"><p class="cst-teams">RED BULL RACING RBPT</p></td>
+          <td class="td-cst-points"><p class="cst-points">696</p></td>
+        </tr>
+        <tr>
+          <td class="td-cst-pos"><p class="cst-pos">2</p></td>
+          <td class="td-cst-teams"><p class="cst-teams">FERRARI</p></td>
+          <td class="td-cst-points"><p class="cst-points">487</p></td>
+        </tr>
+        <tr>
+          <td class="td-cst-pos"><p class="cst-pos">3</p></td>
+          <td class="td-cst-teams"><p class="cst-teams">MERCEDES</p></td>
+          <td class="td-cst-points"><p class="cst-points">447</p></td>
+          </tr>
+          <tr>
+            <td class="td-cst-pos"><p class="cst-pos">4</p></td>
+            <td class="td-cst-teams"><p class="cst-teams">ALPINE RENAULT</p></td>
+            <td class="td-cst-points"><p class="cst-points">153</p></td>
+            </tr>
+            <tr>
+              <td class="td-cst-pos"><p class="cst-pos">5</p></td>
+              <td class="td-cst-teams"><p class="cst-teams">MCLAREN MERCEDES</p></td>
+              <td class="td-cst-points"><p class="cst-points">146</p></td>
+              </tr>
+              <tr>
+                <td class="td-cst-pos"><p class="cst-pos">6</p></td>
+                <td class="td-cst-teams"><p class="cst-teams">ALFA ROMEO FERRARI</p></td>
+                <td class="td-cst-points"><p class="cst-points">53</p></td>
+                </tr>
+                <tr>
+                  <td class="td-cst-pos"><p class="cst-pos">7</p></td>
+                  <td class="td-cst-teams"><p class="cst-teams">ASTON MARTIN ARAMCO MERCEDES</p></td>
+                  <td class="td-cst-points"><p class="cst-points">49</p></td>
+                  </tr>
+                  <tr>
+                    <td class="td-cst-pos"><p class="cst-pos">8</p></td>
+                    <td class="td-cst-teams"><p class="cst-teams">HAAS FERRARI</p></td>
+                    <td class="td-cst-points"><p class="cst-points">36</p></td>
+                    </tr>
+                    <tr>
+                      <td class="td-cst-pos"><p class="cst-pos">9</p></td>
+                      <td class="td-cst-teams"><p class="cst-teams">ALPHATAURI RBPT</p></td>
+                      <td class="td-cst-points"><p class="cst-points">35</p></td>
+                      </tr>
+                      <tr>
+                        <td class="td-cst-pos"><p class="cst-pos">10</p></td>
+                        <td class="td-cst-teams"><p class="cst-teams">WILLIAMS MERCEDES</p></td>
+                        <td class="td-cst-points"><p class="cst-points">8</p></td>
+                        </tr>
+
+        </tbody>
+        </table>
+  </fieldset>
+  <footer>
+    <p class="icons">Our socials</p>
+    <div class="socials">
+        <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+        <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+        <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+        <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+    </div>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 3000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+        <header>
+          <fieldset class="logofield">
+              <div class="containement">
+                <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+                  <div class="quote">
+                    <p>  “I am an artist,
+       the track is my canvas <br>
+      and the car is my brush.” 
+              - Graham Hill</p>
+                  </div>
+              </div>
+      
+          </fieldset>
+      
+      
+          <fieldset class="topmenu">
+      
+            <div class="home-menu">
+              <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"><a href="#"> Standings</a></button>
+              <div class="menu-content">
+                <a href="driver-points.html">Drivers Standings </a>
+                <a href="constructors-points.html"> Constructor Standings</a>
+                <a href="season-results.html">Season Results</a>
+              </div>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="about.html"> About</a></button>
+            </div>
+      
+          </fieldset>
+      
+        </header> 
+  <fieldset class="articlefield">
+    <fieldset class="NEWS">
+      <h3 class="news-title">News</h3>
+      <fieldset class="image-slide">
+      <!-- <div id="slider">
+        <figure>
+          <div>
+            <img src="imgs/Audi Speed.jpg" width="300px" />
+          </div>
+          <div>
+            <img src="imgs/verstappen.jpg" width="300px" />
+          </div>
+          <div>
+            <img src="imgs/vegasrace.jpg" width="300px" />
+          </div>
+          <div>
+            <img src="imgs/vettelretires.jpg" width="300px" />
+          </div>
+          <div>
+            <img src="imgs/2023lineup.jpg" width="300px" />
+          </div>
+          <div>
+            <img src="imgs/2023lineup.jpg" width="300px" />
+          </div>
+        </figure>
+      </div> -->
+      <div  class="slide-contain">
+        <img class="mySlides fade" src="imgs/Audi Speed.jpg" style="width:100%">
+        <img class="mySlides fade" src="imgs/2023lineup.jpg" style="width:100%">
+        <img class="mySlides fade" src="imgs/vegasrace.jpg" style="width:100%">
+        <img class="mySlides fade" src="imgs/verstappen.jpg" style="width:100%">
+        <img class="mySlides fade" src="imgs/vettelretires.jpg" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 5000); 
+      }
+      </script>
+    
+    </fieldset> 
+    <aside>
+      <ul>
+        <li> <a href="#"> Audi to join Formula 1 from 2026.</a></li>
+        <li> <a href="#"> Verstappen Wins 2022 World Championship!</a></li>
+        <li> <a href="#"> F1 is coming to LAS VEGAS November 16-18,2023.</a></li>
+        <li> <a href="#"> Sebastian Vettel leaves F1 after 15 years.</a></li>
+        <li> <a href="#"> F1 2023 Teams and Drivers line up revealed!</a></li>
+        <li> <a href="#"> F1 is coming to LAS VEGAS November 16-18,2023</a></li>
+        <li> <a href="#"> F1 is coming to LAS VEGAS November 16-18,2023</a></li>
+      
+      </ul>
+    </aside>
+  </fieldset>
+  <article class="f1-def">
+    <h3>Formula 1</h3>
+    Formula One (also known as Formula 1 or F1) is the highest class of international racing for open-wheel single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The World Drivers' Championship, which became the FIA Formula One World Championship in 1981, has been one of the premier forms of racing around the world since its inaugural season in 1950. <br> The word formula in the name refers to the set of rules to which all participants' cars must conform. A Formula One season consists of a series of races, known as Grands Prix, which take place worldwide on both purpose-built circuits and closed public roads.
+    <br>A points system is used at Grands Prix to determine two annual World Championships: one for drivers, the other for constructors. Each driver must hold a valid Super Licence, the highest class of racing licence issued by the FIA. The races must run on tracks graded "1" (formerly "A"), the highest grade-rating issued by the FIA.
+    
+    
+  </article>
+  <article class="f1-def">
+    <h3>History of Formula 1</h3>
+    Formula One automobile racing has its roots in the European Grand Prix championships of the 1920s and 1930s, though the foundation of the modern Formula One began in 1946 with the Fédération Internationale de l'Automobile's (FIA) standardisation of rules, which was followed by a World Championship of Drivers in 1950. <br> The sport's history parallels the evolution of its technical regulations. In addition to the world championship series, non-championship Formula One races were held for many years, the last held in 1983 due to the rising cost of competition. National championships existed in South Africa and the United Kingdom in the 1960s and 1970s  </article>
+  </fieldset>
+  <footer>
+    <p class="icons">Our socials</p>
+    <div class="socials">
+        <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+        <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+        <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+        <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+    </div>
+  </footer>
+  </body>
+</html>

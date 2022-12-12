@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 2000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+  <header>
+    <fieldset class="logofield">
+        <div class="containement">
+          <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+            <div class="quote">
+              <p>  “I am an artist,
+ the track is my canvas <br>
+and the car is my brush.” 
+        - Graham Hill</p>
+            </div>
+        </div>
+
+    </fieldset>
+
+
+    <fieldset class="topmenu">
+
+      <div class="home-menu">
+        <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+      </div>
+
+      <div class="menu">
+        <button class="submenu"><a href="#"> Standings</a></button>
+        <div class="menu-content">
+          <a href="driver-points.html">Drivers Standings </a>
+          <a href="constructors-points.html"> Constructor Standings</a>
+          <a href="season-results.html">Season Results</a>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+      </div>
+
+      <div class="menu">
+        <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+      </div>
+
+      <div class="menu">
+        <button class="submenu"> <a href=""> About</a></button>
+        <div class="menu-content">
+          <a href="#">submenu 1</a>
+          <a href="#">submenu 2</a>
+          <a href="#">submenu 3</a>
+        </div>
+      </div>
+
+    </fieldset>
+
+  </header> 
+  <fieldset class="champions">
+    
+    <div class="container">
+
+      <!-- lewis Hamilton -->
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Lewis-Hamilton-PNG-File.png" width="150px">
+                    <h3>Lewis Hamilton</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Michael Schumacher -->
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Michael-Schumacher-PNG-HD.png" width="100px">
+                    <h3>Michael Schumacher</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Juan Manuel Fangio -->
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Juan Manuel Fangio.png" width="150px">
+                    <h3>Juan Manuel Fangio</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Sebastian Vettel -->
+        <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="imgs/Sebastian Vettel.png" width="120px">
+                  <h3>Sebastian Vettel</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+        </div>
+        <!-- Alain Prost -->
+        <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="imgs/Alain Prost.png" width="100px" >
+                <h3>Alain Prost</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
+        </div>
+        <!-- Ayrton Senna -->
+        <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/ayrton-senna-removebg.png" width="150px">
+              <h3>Ayrton Senna</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+        </div>
+        <!-- Nelson Piquet -->
+      <div class="card">
+    <div class="face face1">
+        <div class="content">
+            <img src="imgs/Nelson Piquet.png" width="100px">
+            <h3>Nelson Piquet</h3>
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                <a href="#">Read More</a>
+        </div>
+    </div>
+      </div>
+      <!-- Niki lauda -->
+      <div class="card">
+  <div class="face face1">
+      <div class="content">
+          <img src="imgs/Niki lauda.png" width="110px">
+          <h3>Niki lauda</h3>
+      </div>
+  </div>
+  <div class="face face2">
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <a href="#">Read More</a>
+      </div>
+  </div>
+      </div>
+      <!-- Jackie Stewart -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/jackie-stewart-portret-removebg-preview.png" width="100px">
+              <h3>Jackie Stewart</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Jack brabham -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Jack brabham.png" width="100px">
+              <h3>Jack brabham</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Max Verstappen -->
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="imgs/Max-Verstappen-PNG.png" width="110px">
+                  <h3>Max Verstappen</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- Fernando Alonso -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Fernando Alonso.png" width="100px">
+              <h3>Fernando Alonso</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Mika Häkkinen -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Mika Häkkinen.png" width="100px">
+              <h3>Mika Häkkinen</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Emerson Fittipaldi -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Emerson Fittipaldi.png" width="100px">
+              <h3>Emerson Fittipaldi</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Graham Hill -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Graham Hill.png" width="90px" >
+              <h3>Graham Hill</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Jim Clark -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Jim Clark.png" width="100px">
+              <h3>Jim Clark</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Alberto Ascari -->
+      <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Alberto Ascari.png" width="100px">
+                    <h3>Alberto Ascari</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+      </div>
+      <!-- Nico Rosberg -->
+      <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Nico Rosberg.png" width="100px">
+                    <h3>Nico Rosberg</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+      </div>
+      <!-- Jenson button -->
+      <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="imgs/Jenson button.png" width="120px">
+                    <h3>Jenson button</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+      </div>
+      <!-- Kimi Räikkönen -->
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="imgs/Kimi Räikkönen.png" width="100px">
+                  <h3>Kimi Räikkönen</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- Jacques Villeneuve -->
+      <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="imgs/Jacques Villeneuve.png" width="150px">
+                <h3>Jacques Villeneuve</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
+      </div>
+      <!-- Damon Hill -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Damon Hill.png" width="100px">
+              <h3>Damon Hill</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Nigel Mansell -->
+      <div class="card">
+    <div class="face face1">
+        <div class="content">
+            <img src="imgs/Nigel Mansell.png" width="100px">
+            <h3>Nigel Mansell</h3>
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                <a href="#">Read More</a>
+        </div>
+    </div>
+      </div>
+      <!-- Keke Rosberg -->
+      <div class="card">
+  <div class="face face1">
+      <div class="content">
+          <img src="imgs/Keke Rosberg.png" width="100px">
+          <h3>Keke Rosberg</h3>
+      </div>
+  </div>
+  <div class="face face2">
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <a href="#">Read More</a>
+      </div>
+  </div>
+      </div>
+      <!-- Alan jones -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Alan jones.png" width="100px">
+              <h3>Alan jones</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Jody Scheckter -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Jody Scheckter.png" width="100px">
+              <h3>Jody Scheckter</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Mario Andretti -->
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="imgs/Mario Andretti.png" width="100px">
+                  <h3>Mario Andretti </h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+      <!-- James Hunt -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/James Hunt.png" width="100px">
+              <h3>James Hunt</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Jochen rindt -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Jochen rindt.png" width="100px">
+              <h3>Jochen rindt</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Denny Hulme -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Denny Hulme.png" width="200px">
+              <h3>Denny Hulme</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- John Surtees -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/John Surtees.png" width="150px">
+              <h3>John Surtees</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Phil Hill     -->
+      <div class="card">
+      <div class="face face1">
+          <div class="content">
+              <img src="imgs/Phil Hill.png" width="100px">
+              <h3>Phil Hill</h3>
+          </div>
+      </div>
+      <div class="face face2">
+          <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                  <a href="#">Read More</a>
+          </div>
+      </div>
+      </div>
+      <!-- Mike Hawthorn -->
+      <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="imgs/Mike Hawthorn.png" width="110px">
+                <h3>Mike Hawthorn</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
+      </div>
+      <!-- Giuseppe Farina -->
+      <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="imgs/Giuseppe Farina.png" width="200px">
+                <h3>Giuseppe Farina</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
+      </div>
+
+
+    
+    
+  </div>
+  </fieldset>
+  
+</body>
+</html>
+
+
+  </fieldset>
+
+  <footer>
+    <p class="icons">Our socials</p>
+    <div class="socials">
+        <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+        <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+        <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+        <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+    </div>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!--------------------------------------------- loader----------------------------------- -->
+        <div id="preloader">
+          <div id="loader"></div>
+          <div id="logodiv"><img src="imgs/formula-1.png" id="loaderlogo"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+            $('#preloader').fadeOut('slow');
+            }, 2000); // <-- time in milliseconds
+         </script>
+        <!--------------------------------------------- loader----------------------------------- -->
+
+
+
+        <header>
+          <fieldset class="logofield">
+              <div class="containement">
+                <img class="f1logo" src="imgs/f1logo-01.png" alt=""> 
+                  <div class="quote">
+                    <p>  “I am an artist,
+       the track is my canvas <br>
+      and the car is my brush.” 
+              - Graham Hill</p>
+                  </div>
+              </div>
+      
+          </fieldset>
+      
+      
+          <fieldset class="topmenu">
+      
+            <div class="home-menu">
+              <button class="homelink"><a href="index.html"><i class="fa fa-home" style="color: white ;"></a></i></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"><a href="#"> Standings</a></button>
+              <div class="menu-content">
+                <a href="driver-points.html">Drivers Standings </a>
+                <a href="constructors-points.html"> Constructor Standings</a>
+                <a href="season-results.html">Season Results</a>
+              </div>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="circuits.html"> F1 Schedule</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href="champions.html"> F1 Champions</a></button>
+            </div>
+      
+            <div class="menu">
+              <button class="submenu"> <a href=""> About</a></button>
+              <div class="menu-content">
+                <a href="#">submenu 1</a>
+                <a href="#">submenu 2</a>
+                <a href="#">submenu 3</a>
+              </div>
+            </div>
+      
+          </fieldset>
+      
+        </header> 
+  <fieldset class="articlefield">
+    <h3 class="news-title">2022 Driver Standings</h3>
+    <table class="table-driver">
+      <tbody>
+      <tr>
+      <td class="td-cst-pos"><p class="driver-title">POS</p></td>
+      <td class="td-cst-teams"><p class="driver-title">DRIVER</p></td>
+      <td class="td-cst-points"><p class="driver-title">NATIONALITY</p></td>
+      <td class="td-cst-points"><p class="driver-title">CAR</p></td>
+      <td class="td-cst-points"><p class="driver-title">PTS</p></td>
+      </tr>
+      <tr>
+        <td class="td-cst-pos"><p class="driver-stats">1</p></td>
+        <td class="td-cst-teams"><p class="driver-stats">Verstappen</p></td>
+        <td class="td-cst-points"><p class="driver-stats">NED</p></td>
+        <td class="td-cst-points"><p class="driver-stats">RED BULL RACING RBPT</p></td>
+        <td class="td-cst-points"><p class="driver-stats">416</p></td>
+        </tr>
+        <tr>
+          <td class="td-cst-pos"><p class="driver-stats">2</p></td>
+          <td class="td-cst-teams"><p class="driver-stats">Perez</p></td>
+          <td class="td-cst-points"><p class="driver-stats">MEX</p></td>
+          <td class="td-cst-points"><p class="driver-stats">RED BULL RACING RBPT</p></td>
+          <td class="td-cst-points"><p class="driver-stats">280</p></td>
+          </tr>
+          <tr>
+            <td class="td-cst-pos"><p class="driver-stats">3</p></td>
+            <td class="td-cst-teams"><p class="driver-stats">Leclerc</p></td>
+            <td class="td-cst-points"><p class="driver-stats">MON</p></td>
+            <td class="td-cst-points"><p class="driver-stats">FERRARI</p></td>
+            <td class="td-cst-points"><p class="driver-stats">275</p></td>
+            </tr>          
+            <tr>
+              <td class="td-cst-pos"><p class="driver-stats">4</p></td>
+              <td class="td-cst-teams"><p class="driver-stats">Russell</p></td>
+              <td class="td-cst-points"><p class="driver-stats">GBR</p></td>
+              <td class="td-cst-points"><p class="driver-stats">MERCEDES</p></td>
+              <td class="td-cst-points"><p class="driver-stats">231</p></td>
+              </tr>
+              <tr>
+                <td class="td-cst-pos"><p class="driver-stats">5</p></td>
+                <td class="td-cst-teams"><p class="driver-stats">Hamilton</p></td>
+                <td class="td-cst-points"><p class="driver-stats">GBR</p></td>
+                <td class="td-cst-points"><p class="driver-stats">MERCEDES</p></td>
+                <td class="td-cst-points"><p class="driver-stats">216</p></td>
+                </tr>
+                <tr>
+                  <td class="td-cst-pos"><p class="driver-stats">6</p></td>
+                  <td class="td-cst-teams"><p class="driver-stats">Sainz</p></td>
+                  <td class="td-cst-points"><p class="driver-stats">ESP</p></td>
+                  <td class="td-cst-points"><p class="driver-stats">FERRARI</p></td>
+                  <td class="td-cst-points"><p class="driver-stats">212</p></td>
+                  </tr>   
+                  <tr>
+                    <td class="td-cst-pos"><p class="driver-stats">7</p></td>
+                    <td class="td-cst-teams"><p class="driver-stats">Norris</p></td>
+                    <td class="td-cst-points"><p class="driver-stats">GBR</p></td>
+                    <td class="td-cst-points"><p class="driver-stats">MCLAREN MERCEDES</p></td>
+                    <td class="td-cst-points"><p class="driver-stats">111</p></td>
+                    </tr>
+                    <tr>
+                      <td class="td-cst-pos"><p class="driver-stats">8</p></td>
+                      <td class="td-cst-teams"><p class="driver-stats">Ocon</p></td>
+                      <td class="td-cst-points"><p class="driver-stats">FRA</p></td>
+                      <td class="td-cst-points"><p class="driver-stats">ALPINE RENAULT</p></td>
+                      <td class="td-cst-points"><p class="driver-stats">82</p></td>
+                    </tr>
+                      <tr>
+                        <td class="td-cst-pos"><p class="driver-stats">9</p></td>
+                        <td class="td-cst-teams"><p class="driver-stats">Alonso</p></td>
+                        <td class="td-cst-points"><p class="driver-stats">ESP</p></td>
+                        <td class="td-cst-points"><p class="driver-stats">ALPINE RENAULT</p></td>
+                        <td class="td-cst-points"><p class="driver-stats">71</p></td>
+                      </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">10</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Bottas</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">FIN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ALFA ROMEO FERRARI</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">47</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">11</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Vettel</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">GER</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ASTON MARTIN ARAMCO MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">36</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">12</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Ricciardo</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">AUS</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">MCLAREN MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">35</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">13</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Magnussen</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">DEN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">HAAS FERRARI</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">24</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">14</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Gasly</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">FRA</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ALPHATAURI RBPT</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">23</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">15</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Stroll</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">CAN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ASTON MARTIN ARAMCO MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">13</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">16</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Schumacher</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">GER</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">HAAS FERRARI</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">12</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">17</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Tsunoda</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">JPN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ALPHATAURI RBPT</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">12</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">18</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Zhou</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">CHN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">ALFA ROMEO FERRARI</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">6</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">19</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Albon</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">THA</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">WILLIAMS MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">4</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">20</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Latifi</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">CAN</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">WILLIAMS MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">2</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">21</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">De Vries</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">NED</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">WILLIAMS MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">2</p></td>
+                        </tr>
+                        <tr>
+                          <td class="td-cst-pos"><p class="driver-stats">22</p></td>
+                          <td class="td-cst-teams"><p class="driver-stats">Hulkenberg</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">GER</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">WILLIAMS MERCEDES</p></td>
+                          <td class="td-cst-points"><p class="driver-stats">0</p></td>
+                        </tr>
+
+      </tbody>
+  </table> 
+
+  </fieldset>
+  <footer>
+    <table>
+      <p class="icons">Our socials</p>
+      <div class="socials">
+          <a href="#" class="icon insta-icon"><i class="ri-ig-line"> <img class="logoig" src="imgs/igwhite.png" width="30px" alt="instagram"></i></a>
+          <a href="#" class="icon icon-twitter"><i class="ri-ig-line"> <img class="logoig" src="imgs/twitterwhite.png" width="30px" alt="twitter"></i></a>
+          <a href="#" class="icon icon-ytb"><i class="ri-ig-line"> <img class="logoig" src="imgs/ytbwhite.png" width="30px" alt="youtube"></i></a>
+          <a href="#" class="icon icon-fb"><i class="ri-ig-line"> <img class="logoig" src="imgs/fbwhite.png" width="20px" alt="facebook"></i></a>
+      </div>
+  </footer>
+  </body>
+</html>
