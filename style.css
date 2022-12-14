@@ -799,3 +799,29 @@ footer{
   margin-left: 40px;
   padding: 10px;
 }
+.stand-drive{
+  margin: 50px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Formula1 display', sans-serif;
+  border-radius: 10px;
+  /* border: none; */
+  background-color: #3a3845;
+  color: white;
+  transition: 0.25s;
+  border: solid 1px white ;
+  }
+.stand-drive:hover  {
+  background-color: #2f2e38;
+  cursor: pointer;
+  border-top-right-radius: 0px ;
+  border-bottom-left-radius: 0px ;
+  border: red solid 1px;
+  }
+  .stand-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
